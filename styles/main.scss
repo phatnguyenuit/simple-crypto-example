@@ -1,0 +1,26 @@
+.main {
+  width: 70%;
+  margin: 0 auto;
+  .field {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 8px;
+    label {
+      width: 20%;
+      margin-right: 8px;
+      text-align: right;
+      text-transform: capitalize;
+    }
+  }
+  .actions {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 20.7%;
+    margin-bottom: 8px;
+    button {
+      margin-right: 8px;
+    }
+  }
+}
