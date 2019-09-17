@@ -383,4 +383,4 @@ var e=require("buffer").Buffer;Object.defineProperty(exports,"__esModule",{value
 },{"crypto":"WnIQ","buffer":"aMB2"}],"epB2":[function(require,module,exports) {
 "use strict";var e=t(require("./crypto"));function t(e){return e&&e.__esModule?e:{default:e}}document.addEventListener("DOMContentLoaded",function(){var t=document.getElementById("btnEncrypt"),n=document.getElementById("btnDecrypt"),u=document.getElementById("keySecret"),d=document.getElementById("plainText"),c=document.getElementById("result"),r=new e.default;t.addEventListener("click",function(t){t.preventDefault();var n=u.value;r.keySecret!==n&&(r=new e.default(n)),c.value=r.encrypt(d.value)}),n.addEventListener("click",function(t){t.preventDefault();var n=u.value;r.keySecret!==n&&(r=new e.default(n)),c.value=r.decrypt(d.value)})});
 },{"./crypto":"T9NQ"}]},{},["epB2"], null)
-//# sourceMappingURL=/main.d7025b64.js.map
+//# sourceMappingURL=main.d7025b64.js.map
